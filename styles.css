@@ -5,7 +5,6 @@ body{
     margin: 0;
 }
 header{
-    width: 100%;
     padding: 20px;
     background: #151c39e8;
     color: white;
@@ -28,4 +27,40 @@ header{
 header a{
     color: white;
     text-decoration: none;
+}
+.top{
+    background: url("img/background.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+.top div{
+    display: flex;
+    align-items: center;
+}
+.top h1{
+    margin-block-end: 0;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocks img{
+    width: 100px;
+}
+.blocks{
+    display: flex;
+}
+.blocks div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
